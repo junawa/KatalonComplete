@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Cart page heading.</description><name>lblCartTitle</name><tag></tag><elementGuidId>afbc56e6-cbba-45a2-a0df-1ee638bb4ee4</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;title&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

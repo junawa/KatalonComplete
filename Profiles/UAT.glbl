@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>UAT profile. Replace the URL and inject credentials when a UAT deployment exists.</description>
+   <name>UAT</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity><description>Application base URL.</description><initValue>'https://www.saucedemo.com/'</initValue><name>baseUrl</name><type>String</type></GlobalVariableEntity>
+   <GlobalVariableEntity><description>Default explicit wait in seconds.</description><initValue>10</initValue><name>defaultTimeout</name><type>Integer</type></GlobalVariableEntity>
+   <GlobalVariableEntity><description>Logical environment label.</description><initValue>'UAT'</initValue><name>environment</name><type>String</type></GlobalVariableEntity>
+   <GlobalVariableEntity><description>Standard-user name.</description><initValue>'standard_user'</initValue><name>standardUsername</name><type>String</type></GlobalVariableEntity>
+   <GlobalVariableEntity><description>Locked-user name.</description><initValue>'locked_out_user'</initValue><name>lockedOutUsername</name><type>String</type></GlobalVariableEntity>
+   <GlobalVariableEntity><description>Password; override in CI.</description><initValue>'secret_sauce'</initValue><name>password</name><type>String</type></GlobalVariableEntity>
+</GlobalVariableEntities>

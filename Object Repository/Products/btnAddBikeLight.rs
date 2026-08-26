@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Add Sauce Labs Bike Light.</description><name>btnAddBikeLight</name><tag></tag><elementGuidId>6b7a26f6-dc91-4d57-b609-b9d0f1a49b62</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;add-to-cart-sauce-labs-bike-light&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

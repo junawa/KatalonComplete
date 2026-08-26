@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Shared QA profile for SauceDemo execution.</description>
+   <name>QA</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Application base URL. Override with -g_baseUrl in CI when needed.</description>
+      <initValue>'https://www.saucedemo.com/'</initValue>
+      <name>baseUrl</name>
+      <type>String</type>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default explicit wait in seconds.</description>
+      <initValue>10</initValue>
+      <name>defaultTimeout</name>
+      <type>Integer</type>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Logical environment label included in diagnostics.</description>
+      <initValue>'QA'</initValue>
+      <name>environment</name>
+      <type>String</type>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Centralized SauceDemo standard-user name.</description>
+      <initValue>'standard_user'</initValue>
+      <name>standardUsername</name>
+      <type>String</type>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Centralized SauceDemo locked-user name.</description>
+      <initValue>'locked_out_user'</initValue>
+      <name>lockedOutUsername</name>
+      <type>String</type>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Demo password; supply a CI secret override rather than committing real application credentials.</description>
+      <initValue>'secret_sauce'</initValue>
+      <name>password</name>
+      <type>String</type>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

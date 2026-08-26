@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Bike Light item shown in cart.</description><name>lnkBikeLight</name><tag></tag><elementGuidId>ae5666d1-50ff-43f8-b98c-b5199b42cab8</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;item-0-title-link&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

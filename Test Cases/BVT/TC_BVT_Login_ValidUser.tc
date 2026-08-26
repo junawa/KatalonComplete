@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>P0: a standard user can authenticate and reach the inventory page.</description>
+   <name>TC_BVT_Login_ValidUser</name>
+   <tag>P0,BVT,Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58aed2c5-f15f-48ee-88c4-49e3ca1c4af7</testCaseGuid>
+</TestCaseEntity>

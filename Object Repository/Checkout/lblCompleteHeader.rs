@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Order-completion confirmation heading.</description><name>lblCompleteHeader</name><tag></tag><elementGuidId>d5d13b14-842f-417f-9561-d9fbc95b8849</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;complete-header&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

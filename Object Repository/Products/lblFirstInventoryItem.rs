@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>First product name after sorting.</description><name>lblFirstInventoryItem</name><tag></tag><elementGuidId>09dfb0f3-ca5e-42c6-b4fb-a57856827198</elementGuidId><selectorCollection><entry><key>CSS</key><value>.inventory_item_name</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

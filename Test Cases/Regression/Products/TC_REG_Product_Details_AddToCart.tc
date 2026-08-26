@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>P1: details match the selected product and it can be added from details.</description>
+   <name>TC_REG_Product_Details_AddToCart</name>
+   <tag>P1,Products,ProductDetails,Regression</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9647d3e0-9e9c-46dd-9477-69d789c3be25</testCaseGuid>
+</TestCaseEntity>

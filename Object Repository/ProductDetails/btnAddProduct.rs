@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Add product on details page.</description><name>btnAddProduct</name><tag></tag><elementGuidId>62ec23e9-cd33-42df-9ce3-5d7461ee2d19</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;add-to-cart&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout overview item subtotal.</description><name>lblItemTotal</name><tag></tag><elementGuidId>6d54b755-e57e-4642-9785-f7a86f7b11dc</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;subtotal-label&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

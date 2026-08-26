@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P1 checkout validates a required postal code.</description><name>TC_REG_Checkout_MissingPostalCode</name><tag>P1,Regression,Checkout,Negative</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>2da48bb9-e909-48b2-8475-4837036dc873</testCaseGuid></TestCaseEntity>

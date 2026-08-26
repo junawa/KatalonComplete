@@ -1,0 +1,6 @@
+import business.AuthenticationKeywords
+import business.ProductKeywords
+import business.CartKeywords
+AuthenticationKeywords.loginAsStandardUser()
+ProductKeywords.addBackpackFromInventory()
+CartKeywords.removeBackpackAndContinueShopping()

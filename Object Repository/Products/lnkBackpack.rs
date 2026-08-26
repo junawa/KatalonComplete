@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Stable SauceDemo item link.</description><name>lnkBackpack</name><tag></tag><elementGuidId>0945c10c-7e9e-4eb4-a111-1a4579f306dc</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;item-4-title-link&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

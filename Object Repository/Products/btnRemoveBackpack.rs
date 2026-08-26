@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Stable remove hook for Backpack.</description><name>btnRemoveBackpack</name><tag></tag><elementGuidId>e2804a1a-0f9a-4a7b-a9bb-008c65dfecb0</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;remove-sauce-labs-backpack&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Backpack item shown in cart.</description><name>lnkBackpack</name><tag></tag><elementGuidId>e5656603-4df2-44a1-a9c0-7ebc0f601d2d</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;item-4-title-link&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

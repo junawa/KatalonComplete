@@ -1,0 +1,5 @@
+import business.AuthenticationKeywords
+import business.ProductKeywords
+
+AuthenticationKeywords.loginAsStandardUser()
+ProductKeywords.sortByPriceLowToHigh()

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Product price on details page.</description><name>lblProductPrice</name><tag></tag><elementGuidId>9c5e31cc-e36b-4457-8263-06334ee59678</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;inventory-item-price&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Inventory sort select.</description><name>selectSort</name><tag></tag><elementGuidId>266d7633-14db-4822-a369-30bb96e83108</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;product-sort-container&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

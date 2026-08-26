@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P0: a logged-in customer can add a product and receive the correct cart count.</description><name>TC_BVT_Product_AddToCart</name><tag>P0,BVT,Products,Cart</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>94a5b27b-5bd6-46af-9dd5-28a9cdcece34</testCaseGuid></TestCaseEntity>

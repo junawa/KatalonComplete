@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout overview grand total.</description><name>lblTotal</name><tag></tag><elementGuidId>4a39472f-1249-411c-8985-0de067c6de02</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;total-label&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

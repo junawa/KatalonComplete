@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Cancel checkout.</description><name>btnCancel</name><tag></tag><elementGuidId>dfcc17e2-e0f0-44b3-91d2-224327d2ec05</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;cancel&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

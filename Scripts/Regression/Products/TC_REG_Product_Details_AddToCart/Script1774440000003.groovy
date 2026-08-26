@@ -1,0 +1,6 @@
+import business.AuthenticationKeywords as AuthenticationKeywords
+import business.ProductKeywords as ProductKeywords
+
+AuthenticationKeywords.loginAsStandardUser()
+
+ProductKeywords.verifyBackpackDetailsAndAddToCart()

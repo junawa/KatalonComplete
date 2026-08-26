@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P0 complete order journey for one product.</description><name>TC_BVT_Checkout_Product</name><tag>P0,BVT,Checkout</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>2c82b18a-6a26-4e7e-ad14-492d03301702</testCaseGuid></TestCaseEntity>

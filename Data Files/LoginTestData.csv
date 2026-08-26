@@ -1,0 +1,3 @@
+username,password,expectedResult,expectedMessage
+standard_user,secret_sauce,SUCCESS,
+locked_out_user,secret_sauce,ERROR,"Epic sadface: Sorry, this user has been locked out."

@@ -1,0 +1,3 @@
+import business.AuthenticationKeywords
+AuthenticationKeywords.loginAsStandardUser()
+AuthenticationKeywords.logout()

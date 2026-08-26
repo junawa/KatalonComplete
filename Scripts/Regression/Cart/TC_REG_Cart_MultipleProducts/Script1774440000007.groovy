@@ -1,0 +1,4 @@
+import business.AuthenticationKeywords
+import business.CartKeywords
+AuthenticationKeywords.loginAsStandardUser()
+CartKeywords.addTwoProductsAndVerifyCart()

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P1: inventory removal clears the cart badge.</description><name>TC_REG_Product_RemoveFromCart</name><tag>P1,Regression,Products,Cart</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>a7655f44-2222-45fd-b568-e4f343a3e834</testCaseGuid></TestCaseEntity>

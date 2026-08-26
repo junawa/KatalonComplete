@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Cart quantity badge.</description><name>lblCartCount</name><tag></tag><elementGuidId>8bbd3c4d-32be-4ec2-bd4c-fa9e6c213a23</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;shopping-cart-badge&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

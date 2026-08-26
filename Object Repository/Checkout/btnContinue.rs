@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Continue checkout.</description><name>btnContinue</name><tag></tag><elementGuidId>aaddce46-1c59-4ebc-a0e5-cd78ccfc0d47</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;continue&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,37 @@
+name: SauceDemo BVT
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bvt:
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run Katalon BVT
+        uses: katalon-studio/katalon-studio-github-action@v4.0
+        with:
+          version: '11.4.0'
+          projectPath: '${{ github.workspace }}'
+          args: >-
+            -noSplash -runMode=console -retry=0
+            -testSuitePath="Test Suites/TS_BVT"
+            -browserType="Chrome (headless)" -executionProfile="QA"
+            -apiKey=${{ secrets.KATALON_API_KEY }}
+            --config -webui.autoUpdateDrivers=true
+      - name: Publish Katalon reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: katalon-bvt-reports-${{ github.run_number }}
+          path: Reports/**
+          if-no-files-found: warn

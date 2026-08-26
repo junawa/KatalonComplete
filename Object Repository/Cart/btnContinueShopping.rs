@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Continue shopping control.</description><name>btnContinueShopping</name><tag></tag><elementGuidId>75ca6598-0c3b-4f38-8ceb-e5f5b3759bd5</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;continue-shopping&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

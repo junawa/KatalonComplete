@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout overview tax.</description><name>lblTax</name><tag></tag><elementGuidId>4900d05f-7706-4df1-86b3-2b1c8fb00f89</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;tax-label&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

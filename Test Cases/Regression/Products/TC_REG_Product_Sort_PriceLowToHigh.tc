@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P2: catalog price sort puts the lowest-priced product first.</description><name>TC_REG_Product_Sort_PriceLowToHigh</name><tag>P2,Regression,Products,Sorting</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>29cbcae4-b859-4ff6-8b7e-b026b9fc0d72</testCaseGuid></TestCaseEntity>

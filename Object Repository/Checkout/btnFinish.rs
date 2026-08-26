@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Finish an order.</description><name>btnFinish</name><tag></tag><elementGuidId>6c0c4f99-9bcd-4648-8d2d-e7aeacf70162</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;finish&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P1 cart removal and continue shopping navigation.</description><name>TC_REG_Cart_Remove_ContinueShopping</name><tag>P1,Regression,Cart</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>09f391fd-a5b9-454f-a29c-0c0d7766ed72</testCaseGuid></TestCaseEntity>

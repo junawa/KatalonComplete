@@ -1,0 +1,5 @@
+firstName,lastName,postalCode,expectedResult
+Jane,Doe,10001,SUCCESS
+,Doe,10001,ERROR_FIRST_NAME
+Jane,,10001,ERROR_LAST_NAME
+Jane,Doe,,ERROR_POSTAL_CODE

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P2 checkout cancellation returns the customer to the cart.</description><name>TC_REG_Checkout_Cancel</name><tag>P2,Regression,Checkout</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>9dfe37a3-ce15-4740-aef2-45427722b2f3</testCaseGuid></TestCaseEntity>

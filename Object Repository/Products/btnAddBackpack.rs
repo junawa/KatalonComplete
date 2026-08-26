@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Stable add-to-cart hook for Backpack.</description><name>btnAddBackpack</name><tag></tag><elementGuidId>6a43ff78-6419-448e-a0a9-ee900ba204e6</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;add-to-cart-sauce-labs-backpack&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

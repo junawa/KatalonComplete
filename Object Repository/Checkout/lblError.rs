@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout validation alert.</description><name>lblError</name><tag></tag><elementGuidId>512cb4bc-59ba-4bf7-afbc-3c1f410469ff</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;error&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

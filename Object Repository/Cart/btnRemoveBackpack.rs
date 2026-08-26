@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Remove Backpack from cart.</description><name>btnRemoveBackpack</name><tag></tag><elementGuidId>fd3139af-4a9d-42ed-8a99-f233d252a78f</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;remove-sauce-labs-backpack&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout postal code.</description><name>txtPostalCode</name><tag></tag><elementGuidId>c77d1d9f-95cc-4e0d-95e9-0dfb1fa25d9c</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;postalCode&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

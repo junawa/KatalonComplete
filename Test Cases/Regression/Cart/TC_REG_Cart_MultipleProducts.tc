@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P1 cart supports multiple distinct items.</description><name>TC_REG_Cart_MultipleProducts</name><tag>P1,Regression,Cart</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>393a9e00-fb6a-4e42-9e8f-c706fd9a89b0</testCaseGuid></TestCaseEntity>

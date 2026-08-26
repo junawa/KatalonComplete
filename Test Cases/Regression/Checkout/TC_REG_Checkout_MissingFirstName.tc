@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P1 checkout validates a required first name.</description><name>TC_REG_Checkout_MissingFirstName</name><tag>P1,Regression,Checkout,Negative</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>f7fbc93d-259f-4be5-9baf-81296eaf4e77</testCaseGuid></TestCaseEntity>

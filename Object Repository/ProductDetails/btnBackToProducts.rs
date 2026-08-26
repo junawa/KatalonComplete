@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Return to inventory.</description><name>btnBackToProducts</name><tag></tag><elementGuidId>3fc10d64-714f-4b64-9578-0b0da7797fdd</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;back-to-products&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

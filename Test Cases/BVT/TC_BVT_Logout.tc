@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>P0: an authenticated user can log out and returns to login.</description><name>TC_BVT_Logout</name><tag>P0,BVT,Logout</tag><comment></comment><recordOption>OTHER</recordOption><testCaseGuid>673bc84e-0703-4748-b966-65d2d11b05c9</testCaseGuid></TestCaseEntity>

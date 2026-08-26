@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Proceed to checkout control.</description><name>btnCheckout</name><tag></tag><elementGuidId>338147a8-e63d-48c1-9b66-ad438f83bb42</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;checkout&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

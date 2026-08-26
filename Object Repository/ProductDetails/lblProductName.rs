@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Product name on details page.</description><name>lblProductName</name><tag></tag><elementGuidId>6e1ec09b-54f8-41ac-b76c-9af7efa020f9</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;inventory-item-name&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

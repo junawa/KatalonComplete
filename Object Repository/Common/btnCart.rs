@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Global cart link.</description><name>btnCart</name><tag></tag><elementGuidId>65400591-22eb-4fa9-b532-d8e9b19ce625</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;shopping-cart-link&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>

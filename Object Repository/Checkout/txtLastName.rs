@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity><description>Checkout last name.</description><name>txtLastName</name><tag></tag><elementGuidId>010bc0e1-29d1-4b65-b359-d3eea5433dc0</elementGuidId><selectorCollection><entry><key>CSS</key><value>[data-test=&quot;lastName&quot;]</value></entry></selectorCollection><selectorMethod>CSS</selectorMethod><useRalativeImagePath>false</useRalativeImagePath></WebElementEntity>
