@@ -24,7 +24,7 @@ jobs:
           version: '11.4.0'
           projectPath: '${{ github.workspace }}'
           args: >-
-            -noSplash -runMode=console -retry=0
+            -noSplash -runMode=console -retry=0 -maxFailedTests=1
             -testSuitePath="Test Suites/TS_BVT"
             -browserType="Chrome (headless)" -executionProfile="QA"
             -apiKey=${{ secrets.KATALON_API_KEY }}

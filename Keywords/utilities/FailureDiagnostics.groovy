@@ -14,7 +14,7 @@ class FailureDiagnostics {
 			WebUI.takeScreenshot(screenshot)
 			KeywordUtil.logInfo("Failure screenshot: ${screenshot}")
 		} catch (Exception diagnosticError) {
-			KeywordUtiKeywordUtil.logWarning("Unable to capture failure diagnostics: ${diagnosticError.message}")
+			KeywordUtil.logInfo("Unable to capture failure diagnostics: ${diagnosticError.message}")
 		}
 	}
 }
