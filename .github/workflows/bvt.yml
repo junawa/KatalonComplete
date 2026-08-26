@@ -13,10 +13,11 @@ permissions:
 jobs:
   bvt:
     runs-on: macos-latest
-    timeout-minutes: 20
+    # First-run engine/browser provisioning can exceed 20 minutes on hosted macOS.
+    timeout-minutes: 45
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Run Katalon BVT
         uses: katalon-studio/katalon-studio-github-action@v4.0
         with:
@@ -27,11 +28,12 @@ jobs:
             -testSuitePath="Test Suites/TS_BVT"
             -browserType="Chrome (headless)" -executionProfile="QA"
             -apiKey=${{ secrets.KATALON_API_KEY }}
+            -reportFolder="${{ github.workspace }}/Reports/BVT-${{ github.run_id }}"
             --config -webui.autoUpdateDrivers=true
       - name: Publish Katalon reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: katalon-bvt-reports-${{ github.run_number }}
-          path: Reports/**
-          if-no-files-found: warn
+          path: Reports/
+          if-no-files-found: error

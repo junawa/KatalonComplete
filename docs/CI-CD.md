@@ -2,7 +2,9 @@
 
 ## GitHub Actions
 
-`.github/workflows/bvt.yml` runs `TS_BVT` on pushes and pull requests to `main` and `develop`. Configure the encrypted `KATALON_API_KEY` repository secret. The workflow uses the official Katalon GitHub Action v4.0, Katalon 11.4.0, the QA profile, and headless Chrome. It uploads the `Reports` directory even on failure.
+`.github/workflows/bvt.yml` runs `TS_BVT` on pushes and pull requests to `main` and `develop`. Configure the encrypted `KATALON_API_KEY` repository secret. The workflow uses the official Katalon GitHub Action v4.0, Katalon 11.4.0, the QA profile, and headless Chrome. It has a 45-minute provision-and-execution allowance and explicitly writes results to `Reports/BVT-<run-id>`, which is uploaded even after a failed test run.
+
+The Katalon GitHub Action v4.0 currently emits a Node 20 deprecation warning on Node-24 runners. This is an upstream action-runtime warning; it does not cause test cancellation. The workflow uses Node-24-capable `actions/checkout@v6` and `actions/upload-artifact@v6`, so only Katalon's action remains until Katalon publishes a Node-24 release.
 
 ## Jenkins
 
