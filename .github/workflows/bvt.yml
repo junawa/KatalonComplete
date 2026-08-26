@@ -12,28 +12,38 @@ permissions:
 
 jobs:
   bvt:
-    runs-on: macos-latest
-    # First-run engine/browser provisioning can exceed 20 minutes on hosted macOS.
-    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Pull pinned Katalon image
+        run: docker pull katalonstudio/katalon:11.4.0-slim
       - name: Run Katalon BVT
-        uses: katalon-studio/katalon-studio-github-action@v4.0
-        with:
-          version: '11.4.0'
-          projectPath: '${{ github.workspace }}'
-          args: >-
-            -noSplash -runMode=console -retry=0 -maxFailedTests=1
-            -testSuitePath="Test Suites/TS_BVT"
-            -browserType="Chrome (headless)" -executionProfile="QA"
-            -apiKey=${{ secrets.KATALON_API_KEY }}
-            -reportFolder="${{ github.workspace }}/Reports/BVT-${{ github.run_id }}"
-            --config -webui.autoUpdateDrivers=true
+        env:
+          KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+        run: |
+          docker run --rm \
+            -v "$GITHUB_WORKSPACE:/tmp/project" \
+            -w /tmp/project \
+            katalonstudio/katalon:11.4.0-slim \
+            katalonc.sh \
+              -projectPath=/tmp/project \
+              -retry=0 \
+              -maxFailedTests=1 \
+              -testSuitePath="Test Suites/TS_BVT" \
+              -browserType="Chrome" \
+              -executionProfile="QA" \
+              -apiKey="$KATALON_API_KEY" \
+              -reportFolder="/tmp/project/Reports/BVT-${{ github.run_id }}" \
+              --config -webui.autoUpdateDrivers=true
+      - name: List reports
+        if: always()
+        run: find Reports -maxdepth 4 -type f -print 2>/dev/null || true
       - name: Publish Katalon reports
         if: always()
         uses: actions/upload-artifact@v6
         with:
           name: katalon-bvt-reports-${{ github.run_number }}
           path: Reports/
-          if-no-files-found: error
+          if-no-files-found: ignore

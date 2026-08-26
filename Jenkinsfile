@@ -1,6 +1,6 @@
 pipeline {
     agent { label 'windows-katalon' }
-    options { timestamps(); timeout(time: 30, unit: 'MINUTES') }
+    options { timestamps(); timeout(time: 15, unit: 'MINUTES') }
     parameters {
         choice(name: 'SUITE', choices: ['TS_BVT', 'TS_REG_SMOKE', 'TS_REG_FUNCTIONAL', 'TS_REG_FULL'], description: 'Katalon suite to execute')
         choice(name: 'PROFILE', choices: ['QA', 'UAT', 'STAGING'], description: 'Execution profile')
