@@ -9,6 +9,8 @@ import components.HeaderComponent
 import internal.GlobalVariable
 import pages.LoginPage
 import pages.ProductsPage
+import org.openqa.selenium.Keys
+
 
 /** Business-level authentication actions; tests never manipulate login controls directly. */
 class AuthenticationKeywords {
@@ -17,8 +19,7 @@ class AuthenticationKeywords {
         KeywordUtil.logInfo('Logging in as standard user')
         LoginPage.open()
         LoginPage.login(GlobalVariable.standardUsername, GlobalVariable.password)
-        ProductsPage.verifyProductsPage()	
-		WebUI.acceptAlert(FailureHandling.OPTIONAL)
+        ProductsPage.verifyProductsPage()			
     }
 
     @Keyword
@@ -26,8 +27,7 @@ class AuthenticationKeywords {
         KeywordUtil.logInfo('Attempting login as locked user')
         LoginPage.open()
         LoginPage.login(GlobalVariable.lockedOutUsername, GlobalVariable.password)
-        LoginPage.verifyLoginError('Epic sadface: Sorry, this user has been locked out.')
-		WebUI.acceptAlert(FailureHandling.OPTIONAL)
+        LoginPage.verifyLoginError('Epic sadface: Sorry, this user has been locked out.')		
     }
 
     @Keyword

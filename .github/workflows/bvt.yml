@@ -32,7 +32,7 @@ jobs:
               -retry=0 \
               -maxFailedTests=1 \
               -testSuitePath="Test Suites/TS_BVT" \
-              -browserType="Chrome" \
+              -browserType="Edge Chromium" \
               -executionProfile="QA" \
               -apiKey="$KATALON_API_KEY" \
               -reportFolder="/tmp/project/Reports/BVT-${{ github.run_id }}" \
