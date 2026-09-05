@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') { steps { checkout scm } }
         stage('Execute Katalon') {
             steps {
-                withCredentials([string(credentialsId: 'katalon-api-key', variable: 'KATALON_API_KEY')]) {
+                withCredentials([string(credentialsId: 'Katalon-API-key', variable: 'KATALON_API_KEY')]) {
                     bat '''"%KATALON_HOME%\\katalonc.exe" -noSplash -runMode=console -retry=0 -projectPath="%WORKSPACE%\\KatalonProj.prj" -testSuitePath="Test Suites/%SUITE%" -browserType="Edge Chromium" -executionProfile="%PROFILE%" -apiKey="%KATALON_API_KEY%" --config -webui.autoUpdateDrivers=true'''
                 }
             }
