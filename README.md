@@ -1,6 +1,12 @@
+# Github Actions - BVT
+<img width="1868" height="1061" alt="image" src="https://github.com/user-attachments/assets/db70eb9d-f97d-4599-bd13-469885c5ce3c" />
+# TestOps - Regression Suite/Collection
+<img width="2473" height="1317" alt="image" src="https://github.com/user-attachments/assets/348a41e2-d0fd-4570-b9aa-9c8f8f920a6f" />
+# Jenkins - BVT and Manual Build
+<img width="1051" height="839" alt="image" src="https://github.com/user-attachments/assets/e527c89e-40fd-48e4-98da-dc597b5e425a" />
 # SauceDemo Katalon Framework
 
-Katalon Studio 11.4.0 / Java 21 framework for SauceDemo. It applies POM, business keywords, stable `data-test` locators, independent test design, risk-based suites, and a single-project CI model.
+Katalon Studio 11.5.0 / Java 21 framework for SauceDemo. It applies POM, business keywords, stable `data-test` locators, independent test design, risk-based suites, and a single-project CI model.
 
 ## Architecture
 
