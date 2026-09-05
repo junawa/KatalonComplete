@@ -5,8 +5,16 @@ pipeline {
         choice(name: 'SUITE', choices: ['TS_BVT', 'TS_REG_SMOKE', 'TS_REG_FUNCTIONAL', 'TS_REG_FULL'], description: 'Katalon suite to execute')
         choice(name: 'PROFILE', choices: ['QA', 'UAT', 'STAGING'], description: 'Execution profile')
     }
+    triggers {
+        pollSCM('H/2 * * * *')
+    }
     environment { KATALON_HOME = 'C:\\Users\\Admin\\.katalon\\packages\\KS-11.5.0' }
     stages {
+    	stage('Clean Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
         stage('Checkout') { steps { checkout scm } }
         stage('Execute Katalon') {
             steps {
