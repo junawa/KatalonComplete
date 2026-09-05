@@ -8,7 +8,7 @@ pipeline {
     triggers {
         pollSCM('H/2 * * * *')
     }
-    environment { KATALON_HOME = 'C:\\Users\\Admin\\.katalon\\packages\\KS-11.5.0' }
+    environment { KATALON_HOME = 'C:\\KRE\\Katalon_Studio_Engine_Windows_64-11.5.0' }
     stages {
     	stage('Clean Workspace') {
             steps {
