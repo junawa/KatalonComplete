@@ -10,7 +10,7 @@ Page objects own UI interactions. Business keywords compose customer actions. Te
 
 ## Coverage and suites
 
-- `TS_BVT` (P0): valid login, add to cart, full single-item checkout. Fast pull-request gate.
+- `TS_BVT` (P0): one independent login → add-to-cart → checkout → logout journey. A single browser session keeps the pull-request gate fast.
 - `TS_REG_SMOKE` (P0/P1): login, checkout and cart mutation.
 - `TS_REG_FUNCTIONAL` (P1/P2): locked user, product details, sorting, cart, checkout validation and cancellation.
 - `TS_REG_FULL`: every stable test in this repository.

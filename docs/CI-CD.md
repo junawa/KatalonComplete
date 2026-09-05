@@ -2,7 +2,11 @@
 
 ## GitHub Actions
 
-`.github/workflows/bvt.yml` runs `TS_BVT` on pushes and pull requests to `main` and `develop`. Configure the encrypted `KATALON_API_KEY` repository secret. The workflow uses the official Katalon GitHub Action v4.0, Katalon 11.4.0, the QA profile, and headless Chrome. It uploads the `Reports` directory even on failure.
+`.github/workflows/bvt.yml` runs `TS_BVT` on pushes and pull requests to `main` and `develop`. Configure the encrypted `KATALON_API_KEY` repository secret. It pulls the pinned official `katalonstudio/katalon:11.4.0-slim` Docker image, mounts the repository at `/tmp/project`, runs Edge Chromium, and writes results to `Reports/BVT-<run-id>`. This avoids the deprecated Node-20 Katalon GitHub Action entirely.
+
+`TS_BVT` intentionally executes one end-to-end P0 test in one browser session. The individual login, cart, and logout tests remain available for local diagnosis and regression; they are not repeated in the CI gate. `-maxFailedTests=1` stops a broken BVT immediately instead of consuming runner time.
+
+The workflow uses Node-24-capable `actions/checkout@v6` and `actions/upload-artifact@v6`. No Node-based Katalon wrapper is used.
 
 ## Jenkins
 

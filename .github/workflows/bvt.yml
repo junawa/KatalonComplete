@@ -12,26 +12,38 @@ permissions:
 
 jobs:
   bvt:
-    runs-on: macos-latest
-    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+      - name: Pull pinned Katalon image
+        run: docker pull katalonstudio/katalon:11.4.0-slim
       - name: Run Katalon BVT
-        uses: katalon-studio/katalon-studio-github-action@v4.0
-        with:
-          version: '11.4.0'
-          projectPath: '${{ github.workspace }}'
-          args: >-
-            -noSplash -runMode=console -retry=0
-            -testSuitePath="Test Suites/TS_BVT"
-            -browserType="Chrome (headless)" -executionProfile="QA"
-            -apiKey=${{ secrets.KATALON_API_KEY }}
-            --config -webui.autoUpdateDrivers=true
+        env:
+          KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+        run: |
+          docker run --rm \
+            -v "$GITHUB_WORKSPACE:/tmp/project" \
+            -w /tmp/project \
+            katalonstudio/katalon:11.4.0-slim \
+            katalonc.sh \
+              -projectPath=/tmp/project \
+              -retry=0 \
+              -maxFailedTests=1 \
+              -testSuitePath="Test Suites/TS_BVT" \
+              -browserType="Edge Chromium" \
+              -executionProfile="QA" \
+              -apiKey="$KATALON_API_KEY" \
+              -reportFolder="/tmp/project/Reports/BVT-${{ github.run_id }}" \
+              --config -webui.autoUpdateDrivers=true
+      - name: List reports
+        if: always()
+        run: find Reports -maxdepth 4 -type f -print 2>/dev/null || true
       - name: Publish Katalon reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: katalon-bvt-reports-${{ github.run_number }}
-          path: Reports/**
-          if-no-files-found: warn
+          path: Reports/
+          if-no-files-found: ignore
