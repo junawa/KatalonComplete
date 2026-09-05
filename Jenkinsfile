@@ -5,7 +5,7 @@ pipeline {
         choice(name: 'SUITE', choices: ['TS_BVT', 'TS_REG_SMOKE', 'TS_REG_FUNCTIONAL', 'TS_REG_FULL'], description: 'Katalon suite to execute')
         choice(name: 'PROFILE', choices: ['QA', 'UAT', 'STAGING'], description: 'Execution profile')
     }
-    environment { KATALON_HOME = credentials('katalon-runtime-home') }
+    environment { KATALON_HOME = 'C:\\Users\\Admin\.katalon\\packages\KS-11.5.0' }
     stages {
         stage('Checkout') { steps { checkout scm } }
         stage('Execute Katalon') {
